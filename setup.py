@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-   name='graph',
+   name='graph062',
    version='1.0',
    description='Class graph.',
    license='MIT',
