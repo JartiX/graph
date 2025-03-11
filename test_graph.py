@@ -2,7 +2,6 @@ import pytest
 from graph import Graph
 from graph.node import Node
 
-
 def test_node_creation():
     node = Node("A")
     assert node.name == "A"

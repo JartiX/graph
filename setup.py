@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
    name='graph',
@@ -8,7 +8,7 @@ setup(
    author='Artem Pilyavin',
    author_email='artempilavin@gmail.com',
    url='https://github.com/JartiX/graph',
-   packages=['graph'],
+   packages=find_packages(),
    install_requires=[],
    extras_require={
         'test': [
