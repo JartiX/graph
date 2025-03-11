@@ -34,6 +34,10 @@ Or simply:
 
     pip install git+https://github.com/JartiX/graph.git#egg=graph
     
+Or use this:
+
+    pip install -i https://test.pypi.org/simple/ graph062
+    
 Remove the graph:
 
     pip uninstall graph
